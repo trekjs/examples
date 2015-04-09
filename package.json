@@ -1,0 +1,27 @@
+{
+  "name": "examples",
+  "version": "0.0.0",
+  "description": "Examples using Trek",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "trekjs/examples",
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.0.12",
+    "chalk": "^1.0.0",
+    "co": "^4.5.1",
+    "glob": "^5.0.3",
+    "joi": "^6.1.0",
+    "lodash-node": "^3.6.0",
+    "mz": "^1.3.0",
+    "pg": "^4.3.0",
+    "pg-hstore": "^2.3.2",
+    "pg-native": "^1.8.0",
+    "sequelize": "^2.0.5",
+    "thenify": "^3.1.0",
+    "trek": "git://github.com/trekjs/trek.git"
+  }
+}

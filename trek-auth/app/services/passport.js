@@ -219,7 +219,7 @@ export default (app, config) => {
                 }
               }
             });
-            if (user && yield UserModel.verify(user.password_hash, o.password, user.salt)) {
+            if (user && UserModel.verify(user.password_hash, o.password, user.salt)) {
               return {
                 user: user
               };

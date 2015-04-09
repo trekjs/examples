@@ -1,0 +1,36 @@
+[development]
+url = "{{env.DATABASE_URL}}"
+username = "trek"
+password = "star trek"
+database = "trek"
+host = "192.168.59.103"
+port = "5432"
+dialect = "postgres"
+native = true
+timezone = "+00:00"
+logging = true
+  [development.query]
+  pool = true
+  debug = true
+
+  [development.define]
+  timestamps = true
+  underscored = true
+  charset = "utf8"
+
+[test]
+url = "{{env.DATABASE_URL}}"
+username = "root"
+password = ""
+database = "database_test"
+host = "127.0.0.1"
+dialect = "postgres"
+
+[production]
+url = "{{env.DATABASE_URL}}"
+username = "{{env.DATABASE_USERNAME}}"
+password = "{{env.DATABASE_PASSWORD}}"
+database = "{{env.DATABASE_DATABASE}}"
+host = "{{env.DATABASE_HOST}}"
+port = "{{env.DATABASE_PORT}}"
+dialect = "postgres"

@@ -1,6 +1,6 @@
-import Trek from '../..';
+import Trek from 'trek'
 
-var app = new Trek;
+var app = new Trek(__dirname);
 
 app.get('/', function* (next) {
   this.state.currentUser = this.user;

@@ -1,4 +1,4 @@
-var Trek = require('../..');
+var Trek = require('trek');
 
 var app = new Trek(__dirname);
 

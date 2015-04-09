@@ -1,0 +1,12 @@
+# Application defults config
+
+[site]
+protocol = "{{ env.PROTOCOL || 'http' }}"
+host = "{{ env.HOST || '127.0.0.1' }}"
+port = "{{env.PORT || 3000 }}"
+
+[views]
+root = "{{config.paths.get('app/views')}}"
+
+[lusca]
+csrf = true
