@@ -1,0 +1,16 @@
+{
+  "name": "trek-examples",
+  "description": "Examples using Trek",
+  "version": "0.0.1",
+  "repository": "https://github.com/trekjs/examples",
+  "bugs": "https://github.com/trekjs/examples/issues",
+  "dependencies": {},
+  "devDependencies": {
+    "trek-engine": "0.3.3"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">= 6"
+  },
+  "license": "MIT"
+}
