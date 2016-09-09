@@ -6,7 +6,7 @@
   "bugs": "https://github.com/trekjs/examples/issues",
   "dependencies": {
     "trek-engine": "0.3.3",
-    "trek-view-marko": "0.0.1",
+    "trek-view-marko": "0.0.3",
     "trek-view-pug": "0.0.1"
   },
   "scripts": {},
