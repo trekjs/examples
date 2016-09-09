@@ -1,4 +1,4 @@
-const path = require('path')
+'use strict'
 
 const Engine = require('trek-engine')
 
