@@ -8,9 +8,8 @@ const pug = require('trek-view-pug')
 
 const app = new Engine()
 
-app.use(({ res }) => {
-  pug.render(path.join(__dirname, './index.pug'), { name: 'Trek Engine' })
-    .then(html => res.send(200, html))
+app.use(async ({ res }) => {
+  res.send(200, await pug.render(path.join(__dirname, './index.pug'), { name: 'Trek Engine' }))
 })
 
 app.run(3000)

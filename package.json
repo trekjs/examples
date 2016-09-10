@@ -6,6 +6,7 @@
   "bugs": "https://github.com/trekjs/examples/issues",
   "dependencies": {
     "async-to-gen": "1.1.0",
+    "string-to-stream": "1.1.0",
     "trek-engine": "0.3.3",
     "trek-view-marko": "0.0.3",
     "trek-view-nunjucks": "0.0.0",
